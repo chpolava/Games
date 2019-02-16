@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(72, 123, 153);
+    
+}
+
+.gameContainer {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+}
+
+.fa-th-large {
+    font-size: 12px;
+    color: #487b99;
+    background-color: white;
+    /* display: block; */
+    margin: auto;
+    position: relative;
+    top: 30px;
+    bottom: 0;
+    left: 45px;
+    right: 0;
+}
+
+.fa-angry, .fa-laugh-beam {
+    font-size: 80px;
+    /* color: rgb(196, 36, 36); */
+    color: yellow;
+    position: relative;
+    top: 60px;
+    left: 40px;
+}

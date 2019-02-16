@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Time Pass Game</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+    <script src="main.js"></script>
+    <div class="gameContainer">
+    <!-- <i class="fas fa-th-large"></i> -->
+    <img class="fa-th-large" src="2x2blackcrossgrid.jpg" />
+</div><br/>
+<i class="fas fa-angry" id="angry1" onclick="setStyleAndPositionAngry1()"></i>
+    <i class="fas fa-laugh-beam" id="happy1" onclick="setStyleAndPositionHappy1()"></i>
+    <i class="fas fa-angry" id="angry2" onclick="setStyleAndPositionAngry2()"></i>
+    <i class="fas fa-laugh-beam" id="happy2" onclick="setStyleAndPositionHappy2()"></i>
+    <i class="fas fa-angry" id="angry3" onclick="setStyleAndPositionAngry3()"></i>
+    <i class="fas fa-laugh-beam" id="happy3" onclick="setStyleAndPositionHappy3()"></i>
+<br/><br/><br/><br/>
+    <h3>Rules:</h3>
+    <p>1. Played by 2 people.<br/>2. Each player plays alternatively and selects one of the 2 emojis and 
+        places on the 2 x 2 grid corners.<br/>3. The players can move the placed emojis 
+        along the path of the grid.<br/>4. The player who positions all of his 3 emojis in a 
+        straight path on the grid wins.</p>
+</body>
+</html>
